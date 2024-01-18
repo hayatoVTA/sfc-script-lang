@@ -19,7 +19,7 @@ class PostsTest < ApplicationSystemTestCase
     fill_in "Content", with: @post.content
     fill_in "Date", with: @post.date
     fill_in "Title", with: @post.title
-    click_on "Create Post"
+    click_on "投稿する"
 
     assert_text "Post was successfully created"
     click_on "Back"
