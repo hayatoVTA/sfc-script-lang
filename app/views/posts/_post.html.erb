@@ -1,0 +1,33 @@
+<div id="<%= dom_id post%>" class="post_container">
+  <p class="my-5">
+    <strong class="font-medium mb-1 form_label">Title:</strong>
+    <%= post.title%>
+  </p>
+
+  <p class="my-5">
+    <strong class="font-medium mb-1 form_label">Category:</strong>
+    <%= post.category %>
+  </p>
+
+  <p class="my-5">
+    <strong class="font-medium mb-1 form_label">Content:</strong>
+    <br>
+    <%= content_tag :div, post.content, class: "form_field" %>
+  </p>
+
+  <p class="my-5">
+    <strong class="font-medium mb-1 form_label">Date:</strong>
+    <%= post.date %>
+  </p>
+
+  <p class="my-5">
+    <strong class="font-medium mb-1 form_label">Author:</strong>
+    <%= post.author %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "投稿を見る", post, class: "post_button rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium"%>
+    <%= link_to "投稿を編集する", edit_post_path(post), class: "post_button rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium"%>
+
+  <% end %>
+</div>
