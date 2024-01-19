@@ -1,0 +1,22 @@
+current directory: /Users/hayatoomori/dev/rails/Blog/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.1/ext/bootsnap
+/Users/hayatoomori/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/hayatoomori/dev/rails/Blog/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.1/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240119-9552-dlaaqc sitelibdir\=./.gem.20240119-9552-dlaaqc clean
+
+current directory: /Users/hayatoomori/dev/rails/Blog/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.1/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240119-9552-dlaaqc sitelibdir\=./.gem.20240119-9552-dlaaqc
+compiling bootsnap.c
+bootsnap.c:822:10: warning: unused variable 'contents' [-Wunused-variable]
+  char * contents = NULL;
+         ^
+1 warning generated.
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/hayatoomori/dev/rails/Blog/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.1/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240119-9552-dlaaqc sitelibdir\=./.gem.20240119-9552-dlaaqc install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20240119-9552-dlaaqc/bootsnap
+
+current directory: /Users/hayatoomori/dev/rails/Blog/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.1/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240119-9552-dlaaqc sitelibdir\=./.gem.20240119-9552-dlaaqc clean
